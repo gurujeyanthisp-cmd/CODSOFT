@@ -19,22 +19,24 @@ choice = input("\nEnter your choice (1/2/3): ")
 # Recommendation logic
 if choice == "1":
     print("\nRecommended Action Movies:")
+    
     for movie in action_movies:
         print("-", movie)
 
 elif choice == "2":
     print("\nRecommended Comedy Movies:")
+    
     for movie in comedy_movies:
         print("-", movie)
 
 elif choice == "3":
     print("\nRecommended Romantic Movies:")
+    
     for movie in romantic_movies:
         print("-", movie)
 
 else:
     print("\nInvalid choice! Please run the program again.")
-else:
-    print("\nInvalid choice!")
 
+# Prevent auto close
 input("\nPress Enter to exit...")
