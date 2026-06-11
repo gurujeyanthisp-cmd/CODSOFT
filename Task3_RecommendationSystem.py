@@ -34,7 +34,7 @@ elif choice == "3":
 
 else:
     print("\nInvalid choice! Please run the program again.")
-exit_choice = input("Type OK to exit: ")
+else:
+    print("\nInvalid choice!")
 
-if exit_choice.lower() == "ok":
-    print("Program ended successfully.")
+input("\nPress Enter to exit...")
